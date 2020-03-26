@@ -45,7 +45,7 @@ class NewBoxForm extends Component {
 
                 </div>
                 <div>
-                    <label htmlFor="width">width</label>
+                    <label htmlFor="width">ridth</label>
                     <input 
                     type="text"
                     name="width"
