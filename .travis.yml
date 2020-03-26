@@ -1,0 +1,9 @@
+sudo: required
+services:
+    - docker
+
+before_install:
+    - docker build -t 33142308/color-box-picker -f Dockerfile.dev . 
+
+script:
+    - docker run 33142308/color-box-picker npm run test -- --coverage
